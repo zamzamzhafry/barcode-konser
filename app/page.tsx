@@ -4,9 +4,6 @@ import Image from "next/image";
 import BarcodeGenerator from '../components/BarcodeGenerator';
 import BarcodeTable from '../components/BarcodeTable';
 import TicketGenerator from '../components/TicketGenerator';
-import styles from './page.module.css';
-import { Inter } from 'next/font/google';
-// const inter = Inter({ subsets: ['latin'] });
 
 export default function Home() {
   return (
